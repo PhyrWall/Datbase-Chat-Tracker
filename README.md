@@ -40,6 +40,9 @@ CREATE TABLE lastmessage (
     Username: The username for accessing the PostgreSQL database.
     Password: The password for the PostgreSQL user.
 
+![image](https://github.com/user-attachments/assets/7199251c-7388-4311-a2e3-28d2fa6e74ed)
+
+
 ## 3. How It Works
 
 The plugin listens for chat messages in the game. When a message is detected:
