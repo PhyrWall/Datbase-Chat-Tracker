@@ -39,7 +39,7 @@ public interface ChatMessageCounterConfig extends Config
 	)
 	default String databasePort()
 	{
-		return "5432"; // Default port for PostgreSQL
+		return null;
 	}
 
 	@ConfigItem(
@@ -84,8 +84,7 @@ public interface ChatMessageCounterConfig extends Config
 			keyName = "chat",
 			name = "Chat to Track",
 			description = "Chat to track",
-			position = 2,
-			hidden = true // Hide this field when the condition is met
+			position = 2
 	)
 	default String chat()
 	{
@@ -97,6 +96,7 @@ public interface ChatMessageCounterConfig extends Config
 			name = "Track all chats",
 			description = "Track all chats (Friends Chat, Clan Chat)",
 			position = 1
+
 	)
 	default boolean allChats()
 	{
