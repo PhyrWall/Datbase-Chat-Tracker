@@ -18,14 +18,14 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok:1.18.30'
 	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
-	testImplementation 'junit:junit:4.12'
+	testImplementation 'junit:junit:4.13.1'
 	testImplementation group: 'net.runelite', name:'client', version: runeLiteVersion
 	testImplementation group: 'net.runelite', name:'jshell', version: runeLiteVersion
 	implementation 'org.postgresql:postgresql:42.7.3'
 }
 
-group = 'com.example'
-version = '1.0-SNAPSHOT'
+group = 'com.messagecounter'
+version = '1.1'
 
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
